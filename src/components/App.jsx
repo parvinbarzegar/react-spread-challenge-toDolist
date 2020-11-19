@@ -12,6 +12,8 @@ function App() {
     setItem((prevItems) => {
       return [...prevItems, inputTeaxt];
     });
+
+    setInputText("");
   }
   return (
     <div className="container">
